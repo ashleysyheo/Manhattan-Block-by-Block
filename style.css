@@ -1,0 +1,116 @@
+#legend-box {
+    font-family: 'Helvetica Neue', -apple-system, 'Open Sans',  sans-serif;
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    width: 280px;
+    height: auto;
+    border-radius: 4px;
+    padding: 18px;
+    background-color: rgb(41, 50, 60);
+    box-shadow: 0 1px 2px rgb(0, 0, 0, 0.25);
+    color: white;
+}
+
+#year-built {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.legend-squares {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.square {
+    display: inline-block;
+    width: calc(280px /7);
+    height: 25px;
+    /* background-color: aliceblue; */
+}
+
+#square1 {
+    background-color: rgb(81, 14, 48);
+}
+
+#square2 {
+    background-color: rgb(99, 16, 29);
+}
+
+#square3 {
+    background-color: rgb(136, 0, 0);
+}
+
+#square4 {
+    background-color: rgb(164, 33, 5);
+}
+
+#square5 {
+    background-color: rgb(200, 70, 0);
+}
+
+#square6 {
+    background-color: rgb(246, 154, 0);
+}
+
+#square7 {
+    background-color: rgb(255, 228, 102);
+}
+
+.legend-years {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 20px;
+}
+
+.year {
+    display: inline-block;
+    font-size: 12px;
+}
+
+#source {
+    margin: 0;
+    font-size: 12px;
+    color: whitesmoke;
+}
+
+#source a {
+    color: whitesmoke;
+}
+
+.legYCJ {
+    font-family: 'Helvetica Neue', -apple-system, 'Open Sans',  sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.sc-kxynE {
+    display: none !important;
+}
+
+.sc-cooIXK  {
+    margin-top: 0 !important;
+}
+
+.legYCJ table {
+    gap: 5px 10px;
+}
+
+.legYCJ td {
+    text-transform: uppercase;
+}
+
+.data-ex-icons-layers {
+    display: none;
+}
+
+.bLsRFp {
+    display: none;
+}
+
+.logo-container, .map-control, .attrition-logo {
+    display: none !important;
+}
